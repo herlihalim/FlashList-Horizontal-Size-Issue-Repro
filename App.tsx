@@ -11,17 +11,13 @@ import { FlashList } from "@shopify/flash-list";
 
 function App(): React.JSX.Element {
   const data = [
-    
     { key: 3, title: "Multi-Choices Multi-Choices" },
+    { key: 7, title: "Kale" },
     {
       key: 2,
       title:
         "This is the longest string in this data. Size doesn't seem to grow correctly",
     },
-    { key: 7, title: "Kale" },
-
-    
-
     { key: 1, title: "Short string" },
     { key: 4, title: "Throw" },
     { key: 5, title: "Jam" },
